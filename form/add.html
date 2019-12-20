@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Add Record</title>
+</head>
+ 
+<body>
+    <a href="index.php">Home</a>
+    <br/><br/>
+ 
+    <form action="add.php" method="post" name="form1">
+        <table width="25%" border="0">
+            <tr> 
+                <td>First Name: (A-Z or a-z)</td>
+                <td><input type="text" name="fname" pattern="[A-Za-z]+"></td>
+            </tr>
+            <tr> 
+                <td>Last Name: (A-Z or a-z)</td>
+                <td><input type="text" name="lname" pattern="[A-Za-z]+"></td>
+            </tr>
+            <tr> 
+                <td>Phone Number: (Numbers only)</td>
+                <td><input type="text" name="phonenumber"pattern="[0-9]+"></td>
+            </tr>
+            <tr> 
+                <td>Address</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr> 
+                <td>City</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr> 
+                <td>State</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr> 
+                <td>Zip</td>
+                <td><input type="text" name="zip"></td>
+            </tr>
+            <tr> 
+                <td>Birth Date</td>
+                <td><input type="text" name="birthdate"></td>
+            </tr>
+            <tr> 
+                <td>Username</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr> 
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr> 
+                <td>Sex</td>
+                <td><input type="text" name="sex"></td>
+            </tr>
+            <tr> 
+                <td>Relationship</td>
+                <td><input type="text" name="relationship"></td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
